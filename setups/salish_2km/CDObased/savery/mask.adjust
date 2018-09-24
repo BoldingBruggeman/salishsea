@@ -1,5 +1,8 @@
-3
+7
  40  67  50  82  # West of Juan de Fuca Strait
-  1 145 135 195  # Anything north of Savery Island
-124  60 129  65  # KB testing
-
+ 73 134 75 136  # Around Egmont 
+ 71 131 73 133  # Around Egmont 
+ 106 49 108 51  # Around Blyn 
+ 109 16 111 18  # Around Belfair 
+ 107 1 111  9  # Around Carlyn Beach  
+ 1 158 135 195 # Extended boundary Anything north of Campbell River

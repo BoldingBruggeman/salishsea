@@ -1,7 +1,32 @@
-190
+215
+34 146 34 146 80. # Around Campbell River
+33 148 33 148 90. # Around Campbell River
+33 151 33 151 90. # Around Campbell River
+31 151 31 151 96. # Around Campbell River
+30 152 30 152 86. # Around Campbell River
+29 153 29 154 146. # Around Campbell River
+35 155 35 155 53.  # New adjusted
+39 155 39 155 300.  # New adjusted
+49 156 49 156 353.  # New adjusted
+48 149 48 149 23.  # New adjusted
+76 142 76 142 400.  # New adjusted
+75 143 75 143 330.  # New adjusted
+75 148 75 148 400.  # New adjusted
+76 148 76 148 390.  # New adjusted
+79 148 79 148 320. # New Adjusted 
+79 154 79 154 220. # New Adjusted
+77 155 77 155 280. # New Adjusted
+113 50 113 50 34.  # New adjusted
+116 48 116 48 17.  # New adjusted
+117 47 117 47 16.  # New adjusted
+107 15 108 15 19.  # New adjusted
+118 15 118 15 33.  # New adjusted
+87 84 87 85 40.  # New adjusted
+93 84 93 85 45.  # New adjusted
 52 76 52 76 40.   # Around WTC inlandtrail
 55 75 55 75 26.   # Around Sandstone Creeck
-65 71 65 71 10.   # Around Sombrio Beach
+64 72 64 72 20.   # Around Sombrio Beach
+65 71 65 71 18.   # Around Sombrio Beach
 67 70 67 70 12.   # Aroun West Coast Calm
 70 69 70 69 14.   # Around Mystic Beach
 78 66 78 66 70.   # Around Shirley
@@ -89,24 +114,24 @@
 116 93 116 93 6.    # Around Birch Bay
 115 92 115 92 8.    # Around Birch Bay
 115 91 115 91 15.    # Around Birch Bay
-102 106 102 106 4.  # Fraser River 
-101 108 101 108 4.  # Fraser River 
+102 106 102 106 5.  # Fraser River 
+101 108 101 108 5.  # Fraser River 
 104 107 104 107 5.  # Fraser River 
 105 107 105 107 5.  # Fraser River
 106 107 106 107 5.  # Fraser River
 107 107 107 107 5.  # Fraser River
 108 107 108 107 5.  # Fraser River
 109 107 109 107 5.  # Fraser River
-115 108 116 108 7. # Fraser River
+115 108 116 108 6. # Fraser River
 111 108 111 108 5. # New Westminster
 111 107 111 107 5. # New Westminster
 110 107 110 107 5. # New Westminster
 110 106 110 106 5. # New Westminster 
-109 106 109 106 5. # Fraser River continuity 
-109 105 109 105 5. # Fraser River continuity
-107 105 107 105 5. # Fraser River continuity
+109 106 109 106 6. # Fraser River continuity 
+109 105 109 105 6. # Fraser River continuity
+107 105 107 105 6. # Fraser River continuity
 107 104 107 104 7. # Fraser River continuity
-106 103 106 103 10. # Fraser River continuity 
+106 103 106 103 8. # Fraser River continuity 
 104 102 105 102 6. # Fraser River continuity
 102 102 102 102 4. # Fraser River continuity
 109 70 109 70 45. # Around Goose Island 
@@ -179,14 +204,14 @@
 121 8 121 8 35.  # Around University Place
 118 3 118 3 25.  # Around Barlow Island 
 118 2 118 2 15.  # Around Barlow Island 
-113 7 113 7 15.  # Around Jelly Fish  
-114 8 114 8 10.  # Around Joemma Beach 
-113 10 113 10 35.  # Around Herron Island 
+113 7 113 7 35.  # Around Jelly Fish  
+114 8 114 8 60.  # Around Joemma Beach 
+113 10 113 10 50.  # Around Herron Island 
 115 6 115 6 55.    # Around Yoman
-124 23 124 23 45.  # Around Blake Island 
-124 22 124 22 15.  # Around Blake Island
-124 20 124 20 25.  # Around West Seattle 
-124 19 124 19 20.  # Around West Seattle
-124 18 124 18 10.  # Around Al's 
-123 18 123 18 20.  # Around Al's
+124 23 124 23 89.  # Around Blake Island 
+124 22 124 22 88.  # Around Blake Island
+124 20 124 20 91.  # Around West Seattle 
+124 19 124 19 93.  # Around West Seattle
+124 18 124 18 95.  # Around Al's 
+123 18 123 18 97.  # Around Al's
  
