@@ -1,4 +1,9 @@
-2
- 80 138  98 170  # West of Juan de Fuca Strait
-  1 294 269 394  # Anything north of Savery Island
-
+8
+ 80 138 98 170  # West of Juan de Fuca Strait
+ 99 158 99 158  # North of Western Boundary
+ 207 6 213 11   # Madona Beach 
+ 208 225 231 258 # Anything East of fraser River 
+ 215 216 216 217 # Around New Westminster 
+ 100 327 101 328 # East Redonda Island
+ 90 293 90 293  # Savary Island
+ 195 175 195 175 # North Pender Island

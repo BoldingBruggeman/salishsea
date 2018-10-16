@@ -1,138 +1,51 @@
-137
-186 141 186 141 20. # Around Victoria Harbour.
-192 142 192 142 10. # Around Victoria Harbour.
-193 143 193 143 16. # Around Victoria Harbour.
-193 144 193 144 18. # Around Victoria Harbour.
-193 145 193 145 8. # Around Victoria Harbour.
-190 149 190 149 8. # Around Royal Oak.
-189 150 189 150 11. # Around Royal Oak.
-188 151 188 152 8. # Around Royal Oak.
-188 156 188 156 8. # Around RV Resort.
-186 160 186 160 12. # Around Saanichton
-185 168 185 168 8. # Around Swartz Bay
-177 155 177 155 160. # Around Malahat
-175 175 175 175 40. # Around Genoa Bay
-174 175 174 175 50. # Around Genoa Bay
-175 176 175 176 40. # Around Sansum Narrow
-175 177 175 177 60. # Around Sansum Narrow
-174 182 174 182 120. # Around Sansum Narrow
-167 206 167 206 30. # Around Valdes Island
-167 207 167 207 28. # Around Valdes Island
-163 210 163 210 38. # Around Valdes Island
-164 212 164 212 10. # Around Gabriola passage
-215 145 215 145 40. # Around Goose Island 
-225 152 225 152 40. # Around Willow Island
-225 158 225 158 20. # Around Blakely Island
-217 155 217 155 34. # Around Canoe Island
-219 158 219 158 40. # Around Shaw Island
-218 158 218 158 30. # Around Shaw Island
-216 158 216 158 24. # Around Shaw Island
-215 158 215 158 30. # Around Shaw Island
-212 159 212 159 9. # Around Coon Island
-220 163 220 163 22. # Around Mt Constitution
-220 164 220 164 25. # Around Mt Constitution
-219 164 219 164 18. # Around Mt Constitution
-240 152 240 152 30. # Around Hucklebery Island
-238 151 238 151 9. # Around Hucklebery Island
-236 168 236 168 16. # Around Lummi Island
-223 150 223 150 9.  # Trump Island
-203 210 203 210 8.  # Fraser River
-203 208 203 208 4.  # Fraser River
-205 208 205 208 4.  # Fraser River
-206 208 206 208 4.  # Fraser River
-206 209 206 209 4.  # Fraser River
-210 213 210 213 8.  # Fraser River
-210 214 210 214 7.  # Fraser River
-213 214 213 214 4.  # Fraser River
-214 215 214 215 6.  # Fraser River
-215 215 215 215 7.  # Fraser River
-217 215 217 215 9.  # Fraser River
-217 217 217 217 9.  # Fraser River
-218 217 218 217 8.  # Fraser River
-218 219 218 219 7.  # Fraser River
-217 219 217 219 5.  # Fraser River
-216 219 216 219 4.  # Fraser River
-215 219 215 219 4.  # Fraser River
-215 218 215 218 4.  # Fraser River
-213 218 214 218 4.  # Fraser River
-219 219 219 219 8.  # Fraser River
-219 220 219 220 5.  # Fraser River
-220 220 220 220 4.  # Fraser River
-198 221 198 222 4.  # Around The Poo Pipe
-199 221 201 221 4.  # Around The Poo Pipe
-201 220 201 220 4.  # Around The Poo Pipe
-202 220 203 220 4.  # Around Waaaay South
-203 218 203 218 4.  # Around BoatHouses
-201 217 202 217 4.  # Around Richmond
-205 219 205 219 7.  # Around Lone Caboose
-207 219 207 219 8.  # Around Indoor Beach
-208 219 211 219 5.  # Around Mt Baker
-211 218 212 218 4.  # Around Granberry Field
-239 64 239 64 25.    # Around Central Valley
-240 64 240 64 18.    # Around Central Valley
-228 198 228 198 4. # New Blaine
-228 199 228 199 5. # New Blaine 
-229 196 229 197 4. # New Blaine
-236 168 236 168 12. # Around Portage Island
-233 148 234 148 14. # Around Burrows Island
-236 140 236 140 12. # Around Canoe 
-238 140 238 140 12. # Around Canoe  
-239 141 239 141 9. # Around Hoypus Pt
-252 124 253 124 4. # Around Stanwood
-253 122 253 122 4. # Around Stanwood
-248 33 248 33 80.  # Around Maury Island
-247 36 247 37 10.  # Around Vashno Island
-242 29 242 29 48.  # Around Shore Acres
-243 36 243 36 60.  # Around Mom's Yard
-243 40 243 40 90.  # Around Maplewood
-244 45 244 45 75.  # Around Cloves Passage
-245 48 245 48 85.  # Around Kitsap Log Cabin
-246 50 247 50 55.  # Around Southworth
-243 26 243 26 36.  # Around Ruston
-241 25 241 25 45.  # Around Tacoma
-242 25 242 25 20.  # Around Tacoma
-240 22 240 22 50.  # Around Fox Island
-240 22 240 22 50.  # Around Fox Island
-239 24 239 24 40.  # Around Fox Island
-238 26 238 26 15.  # Around Cronwell
-236 26 236 26 10.  # Around Cronwell
-237 26 237 26 11.  # Around Cronwell
-235 27 235 27 13.  # Around Cronwell
-236 14 236 14 70.  # Around Ketron Island
-233 11 233 11 49.  # Around Agust Inn
-234 11 234 11 40.  # Around Agust Inn
-232 10 234 10 25.  # Around Agust Inn
-232 9 232 9 18.    # Around Nisqually
-234 18 234 18 30.  # Around Eagle Island
-232 18 232 18 27.  # Around Eagle Island
-222 16 222 16 10.  # Around Realtorandrew
-221 16 221 16 8.  # Around Realtorandrew
-221 15 221 15 9.  # Around Realtorandrew
-230 25 230 25 20. # Around Lakebay
-230 24 230 24 18. # Around Lakebay
-231 24 231 24 38. # Around Lakebay
-231 23 231 23 10. # Around Lakebay
-231 20 231 22 8. # Around Pitt Island
-230 20 230 20 20. # Around Lakebay
-233 148 234 148 18. # Around Burrows Island
-232 146 232 146 38. # Around Burrows Island
-238 141 239 141 8.  # Around Strawberry Island
-238 140 238 140 8.  # Around Strawberry Island
-210 50 210 50 90.  # Around Stetson's Cove
-208 48 208 48 120.  # Around Egle Creek
-208 46 208 46 100.  # Around Egle Creek
-204 41 204 41 100.  # Around Hood Canal
-205 36 205 36 66.  # Around Tahuya
-206 36 207 36 50.  # Around Tahuya
-208 36 208 36 40.  # Around Tahuya
-206 35 207 35 40.  # Around Tahuya
-209 35 212 35 20.  # Around Tahuya
-212 37 212 37 23.  # Around Tahuya
-214 37 214 37 23.  # Around Tahuya
-219 41 219 41 4.  # Around Elephendal Pass
-231 100 231 100 17. # Around Indian Island
-222 100 223 100 13. # Around Adelma Beach
-222 101 223 102 15. # Around Adelma Beach
-217 109 218 109 90. # Around Mt Baker
-220 110 220 110 90. # Around Protection Island
-211 103 211 103 16.  # Around Blyn
+50
+28 345 28 346 25. # Hardwicke Island 
+30 344 30 344 32. # Hardwicke Island 
+31 343 31 343 36. # Hardwicke Island
+46 344 46 344 26. # Blind Chanel 
+72 324 73 324 8. # Maurelle Island 
+81 321 81 321 60. # West Redonda Island
+84 319 84 319 36. # West Redonda Island
+91 324 91 324 100. # West Redonda Island
+142 269 142 269 165. # West Redonda Island
+153 273 153 274 20. # Earls Cove 
+203 220 203 220 4. # Fraser River 
+202 217 202 217 4. # Fraser River
+208 219 209 219 4. # Fraser River
+211 218 212 218 5. # Fraser River
+212 217 213 217 5. # Fraser River
+214 218 216 218 5. # Fraser River
+216 219 218 219 5. # Fraser River
+227 221 228 221 6. # Fraser River
+229 222 229 222 7. # Fraser River
+217 215 217 215 11. # Fraser River
+214 215 215 215 9. # Fraser River
+213 214 213 214 6. # Fraser River
+210 213 210 213 10. # Fraser River
+204 206 204 207 5. # Fraser River
+180 183 180 183 4. # Salt Spring Island 
+182 175 182 176 10. # Fulford Harbour 
+172 133 173 133 7.  # Sooke 
+253 124 253 124 4.  # Stanwood
+202 159 202 159 3. # Roche Harbour
+232 106 232 106 6. # Port Townsend 
+231 106 231 106 5. # Port Townsend
+243 102 243 102 11. # Whidbey Island 
+241 84 241 85 11. # Port Ludlow 
+242 58 242 58 16. # Bremerton
+234 54 235 54 5.  # Bremerton  
+249 38 250 38 4. # Vashon Island 
+238 26 238 26 17. # University place 
+236 26 236 27 14. # University place
+224 36 224 36 5. # Victor 
+225 36 225 36 7. # Victor
+221 41 221 41 4. # Belfair 
+220 29 220 29 14. # Case inlet 
+218 27 218 28 17. # Walkers Landing 
+217 25 217 27 17. # Walkers Landing
+217 21 217 21 12. # Walkers Landing
+219 21 219 21 5. # Harstine Island 
+219 17 219 17 6. # harstine Island 
+215 10 215 10 10. # harstine Island
+223 15 223 15 9. # harstine Island
+233 11 233 11 50. # Anderson Island 
