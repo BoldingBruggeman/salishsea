@@ -12,8 +12,8 @@
 export exedir=$HOME/local/intel/17.0.3/getm/bin
 
 salish_setups=$HOME/SalishSea/salishsea/setups
-initial_year=2010
-final_year=2016
+initial_year=2012
+final_year=2014
 exp=A
 
 start_year=${start_year:-$1}
@@ -32,13 +32,14 @@ queue_system=1
 
 if [ "$HOSTNAME" == "orca" ]; then 
    basedir=/scratch/$USER/SalishSea
+   export exedir=$HOME/local/intel/19.0.0/getm/2.1/bin
+   ln -sf par_setup.dat.8 par_setup.dat
    queue_system=0
 fi
 
 runid=salish_2km
 runscript=$salish_setups/$runid/batch_script.sh
 export runtype=4
-export runtype=1
 
 do_runs=0
 do_runs=1
@@ -59,6 +60,7 @@ make namelist
 
 if [ $do_runs == 1 ]; then
    mkdir -p $out_dir
+   sed "s#OUTDIR#$out_dir#" output.yaml.in > output.yaml
 #KB   rm -r $out_dir/*.{stderr,nc} 
    if [ $queue_system == 1 ]; then
       srun $exedir/getm_spherical_parallel
@@ -67,15 +69,18 @@ if [ $do_runs == 1 ]; then
    fi
    mv getm.inp getm_fabm.inp $out_dir/
    mv $runid.????.stderr $out_dir/
+   cp output.yaml $out_dir/
    rm $runid.????.stdout
    # prepare hotstart files for next run
    next_dir=$basedir/$runid/$runtype/$exp/$stop_year
    mkdir -p $next_dir
-   old=`pwd`
-   cd $out_dir
-   mv restart.????.out $next_dir && cd $next_dir && rename out in restart.????.out
-   #   rename 's/\.out$/\.in/' restart.????.out
-   cd $old
+   mv $out_dir/restart.????.out $next_dir
+   for f in $next_dir/*.out; do mv -- "$f" "${f%.out}.in"; done
+#   old=`pwd`
+#   cd $out_dir
+#   mv restart.????.out $next_dir && cd $next_dir && rename out in restart.????.out
+#   rename 's/\.out$/\.in/' restart.????.out
+#   cd $old
 else
    mv getm.inp getm.inp.$start_year
 fi
