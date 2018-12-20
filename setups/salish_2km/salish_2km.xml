@@ -19,7 +19,7 @@
 			<stop>2017-01-05 00:00:00</stop>
 		</time>
 		<domain>
-			<vert_cord>1</vert_cord>
+			<vert_cord>3</vert_cord>
 			<maxdepth>428.0</maxdepth>
 			<bathymetry>topo.nc</bathymetry>
 			<vel_depth_method>0</vel_depth_method>
@@ -46,7 +46,7 @@
 			<metforcing>True</metforcing>
 			<on_grid>False</on_grid>
 			<calc_met>True</calc_met>
-			<met_method>1</met_method>
+			<met_method>2</met_method>
 			<fwf_method>0</fwf_method>
 			<spinup>0</spinup>
 			<metfmt>2</metfmt>
@@ -94,7 +94,7 @@
 			<cnpar>0.9</cnpar>
 			<cord_relax>0.0</cord_relax>
 			<adv_ver_iterations>200</adv_ver_iterations>
-			<bdy3d>False</bdy3d>
+			<bdy3d>True</bdy3d>
 			<bdyfmt_3d>2</bdyfmt_3d>
 			<bdyramp_3d>0</bdyramp_3d>
 			<bdyfile_3d>bdy_3d.nc</bdyfile_3d>
@@ -117,7 +117,7 @@
 			<max_vel>4.0</max_vel>
 		</m3d>
 		<temp>
-			<temp_method>1</temp_method>
+			<temp_method>0</temp_method>
 			<temp_const>9.2</temp_const>
 			<temp_format>2</temp_format>
 			<temp_file>salttemp_init.nc</temp_file>
@@ -140,7 +140,7 @@
 			<max_temp>35.0</max_temp>
 		</temp>
 		<salt>
-			<salt_method>1</salt_method>
+			<salt_method>0</salt_method>
 			<salt_const>31.0</salt_const>
 			<salt_format>2</salt_format>
 			<salt_file>salttemp_init.nc</salt_file>
@@ -191,10 +191,10 @@
 
 			<first_2d>0</first_2d>
 			<step_2d>300</step_2d>
-			<sync_2d>24</sync_2d>
+			<sync_2d>0</sync_2d>
 			<first_3d>0</first_3d>
-			<step_3d>600</step_3d>
-			<sync_3d>24</sync_3d>
+			<step_3d>7200</step_3d>
+			<sync_3d>0</sync_3d>
 			<hotout>
 				<e>0</e>
 				<e/>

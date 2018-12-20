@@ -48,8 +48,8 @@ export stop="$stop_year-01-01 00:00:00"
 export out_dir=$basedir/$runid/$runtype/$exp/$start_year
 if [ "$start_year" == "$initial_year" ]; then
    export hotstart=False
-   export temp_method=2
-   export salt_method=2
+   export temp_method=3
+   export salt_method=3
 else
    export hotstart=True
    export temp_method=0
