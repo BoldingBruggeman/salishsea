@@ -1,0 +1,74 @@
+OUTDIR/salishsea:
+  time_step: 1
+  time_unit: day
+  time_reference: 2010-01-01 00:00:00
+  variables:
+    - source: /*
+
+OUTDIR/salishsea_meteo:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  variables:
+    - source: meteo/out/*
+
+OUTDIR/salishsea_surface:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  k_start: 30
+  k_stop: 30
+  variables:
+    - source: z
+    - source: temp
+    - source: salt
+
+OUTDIR/salishsea_bottom:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  k_start: 1
+  k_stop: 1
+  variables:
+    - source: temp
+    - source: salt
+
+#salishsea_3_3:
+  #time_step: 1
+  #time_unit: day
+  #time_reference: 2010-01-01 00:00:00
+  #i_stride: 3
+  #j_stride: 3
+  #variables:
+    #- source: /*
+
+OUTDIR/example_station:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 95
+  i_stop: 95
+  j_start: 100
+  j_stop: 100
+  variables:
+    - source: /*
+
+  #time_stop: 1998-07-01 00:00:00
+#  k_start: 1
+#  k_stop: 1
+  variables:
+    - source: *
+#    - source: temp
+#    - source: salt
+#    - source: velocities/*
+#    - source: fabm/*
+#    - source: temp
+#      name: temp_mean
+#      time_method: 2
+
+#all:
+#  time_step: 1
+#  time_unit: month
+#  variables:
+#    - source: *
+
