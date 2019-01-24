@@ -3,7 +3,7 @@ OUTDIR/salishsea:
   time_unit: day
   time_reference: 2010-01-01 00:00:00
   variables:
-    - source: /*
+    - source: *
 
 OUTDIR/salishsea_meteo:
   time_step: 1
@@ -16,8 +16,8 @@ OUTDIR/salishsea_surface:
   time_step: 1
   time_unit: hour
   time_reference: 2010-01-01 00:00:00
-  k_start: 30
-  k_stop: 30
+  k_start: 35
+  k_stop: 35
   variables:
     - source: z
     - source: temp
@@ -42,16 +42,115 @@ OUTDIR/salishsea_bottom:
   #variables:
     #- source: /*
 
-OUTDIR/example_station:
+OUTDIR/station_cowichan1:
   time_step: 1
   time_unit: hour
   time_reference: 2010-01-01 00:00:00
-  i_start: 95
-  i_stop: 95
-  j_start: 100
-  j_stop: 100
+  i_start: 91
+  i_stop: 91
+  j_start: 82
+  j_stop: 82
   variables:
-    - source: /*
+    - source: *
+
+OUTDIR/station_baynes1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 56
+  i_stop: 56
+  j_start: 125
+  j_stop: 125
+  variables:
+    - source: *
+
+OUTDIR/station_campbell1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 38
+  i_stop: 38
+  j_start: 146
+  j_stop: 146
+  variables:
+    - source: *
+
+OUTDIR/station_irvines1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 65
+  i_stop: 65
+  j_start: 129
+  j_stop: 129
+  variables:
+    - source: *
+
+OUTDIR/station_lund1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 46
+  i_stop: 46
+  j_start: 145
+  j_stop: 145
+  variables:
+    - source: *
+
+OUTDIR/station_ladysmith1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 85
+  i_stop: 85
+  j_start: 95
+  j_stop: 95
+  variables:
+    - source: *
+
+OUTDIR/station_nanaimo1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 74
+  i_stop: 74
+  j_start: 115
+  j_stop: 115
+  variables:
+    - source: *
+
+OUTDIR/station_powell1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 48
+  i_stop: 48
+  j_start: 137
+  j_stop: 137
+  variables:
+    - source: *
+
+OUTDIR/station_steveston1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 89
+  i_stop: 89
+  j_start: 105
+  j_stop: 105
+  variables:
+    - source: *
+
+OUTDIR/station_victoria1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 2010-01-01 00:00:00
+  i_start: 100
+  i_stop: 100
+  j_start: 63
+  j_stop: 63
+  variables:
+    - source: *
 
   #time_stop: 1998-07-01 00:00:00
 #  k_start: 1
