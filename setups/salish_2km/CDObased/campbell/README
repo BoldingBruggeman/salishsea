@@ -1,0 +1,6 @@
+Boundary data - from Marvin
+
+ncks -dnbdyp,0,9 ../savery/Salish_Sea_bdy_3d_clim.nc Salish_Sea_bdy_3d_clim.nc
+
+ncks -dnbdyp,0,9 Salish_Sea_tides_2010-2018.nc western_2d.nc
+
