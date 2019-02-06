@@ -44,7 +44,7 @@
 !                     This variable is used only if fabm_calc = True
 !-------------------------------------------------------------------------------
 &gotm_fabm_nml
-   fabm_calc = .true.,
+   fabm_calc = .false.,
    cnpar = 1.0,
    w_adv_discr = 6,
    ode_method = 1,
