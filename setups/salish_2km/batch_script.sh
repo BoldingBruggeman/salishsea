@@ -37,6 +37,13 @@ if [ "$HOSTNAME" == "orca" ]; then
    queue_system=0
 fi
 
+if [ "$HOSTNAME" == "salish-XPS-9100" ]; then 
+   basedir=/$HOME/out/SalishSea
+   export exedir=$HOME/local/gnu/5/getm/bin
+   ln -sf par_setup.dat.8 par_setup.dat
+   queue_system=0
+fi
+
 runid=salish_2km
 runscript=$salish_setups/$runid/batch_script.sh
 export runtype=4
