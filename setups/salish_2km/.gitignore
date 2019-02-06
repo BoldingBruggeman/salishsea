@@ -4,6 +4,7 @@ mask.adjust
 meteo_files.dat
 meteo_files_cfsr.dat
 topo.nc
+bdy_?d.nc
 output.yaml
 getm.inp*
 par_setup.dat*
