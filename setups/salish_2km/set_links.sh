@@ -13,7 +13,9 @@ ln -sf $bathymetry/$boundary/mask.adjust
 ln -sf $bathymetry/$boundary/bdy_3d.nc bdy_3d.nc
 ln -sf $bathymetry/$boundary/salttemp_init.nc .
 
-met=ecmwf
 met=cfsr
 ln -sf meteo_files_$met.dat meteo_files.dat
+met=ecmwf
+#ln -sf meteo_files_era5_full.dat meteo_files.dat
+ln -sf meteo_files_era5_part.dat meteo_files.dat
 
