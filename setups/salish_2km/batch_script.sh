@@ -16,7 +16,7 @@
 ##SBATCH --mem-per-cpu=
 
 export exedir=$HOME/local/intel/17.1/getm/2.1/bin
-ln -sf subdomain/par_setup.dat.8 par_setup.dat
+ln -sf subdomain/par_setup.dat.32 par_setup.dat
 
 salish_setups=$HOME/SalishSea/salishsea/setups
 initial_year=2012
