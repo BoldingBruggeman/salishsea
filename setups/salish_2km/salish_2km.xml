@@ -58,7 +58,7 @@
 			<evap_const>0.0</evap_const>
 			<precip_const>0.0</precip_const>
 			<evap_factor>1.0</evap_factor>
-			<precip_factor>1.0</precip_factor>
+			<precip_factor>0.0002777777777777778</precip_factor>
 		</meteo>
 		<rivers>
 			<river_method>0</river_method>
