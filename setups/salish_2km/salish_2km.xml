@@ -30,7 +30,7 @@
 			<bdyinfofile>bdyinfo.dat</bdyinfofile>
 			<crit_depth>0.5</crit_depth>
 			<min_depth>0.1</min_depth>
-			<kdum>30</kdum>
+			<kdum>35</kdum>
 			<ddu>1.0</ddu>
 			<ddl>1.0</ddl>
 			<d_gamma>40.0</d_gamma>
