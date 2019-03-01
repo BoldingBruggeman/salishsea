@@ -1,19 +1,26 @@
 #!/bin/bash
 
-#SBATCH --account=def-nereusvc
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=32
-##SBATCH --ntasks=1
-#SBATCH --mem=0
-#SBATCH --time=0-00:20
-#SBATCH --job-name=salish_2km
-##SBATCH --output=$HOME/scratch/ModelOutPut/Salish500m/GETM500mRun.out
+#ulimit -s 2097152
 
-export exedir=$HOME/local/intel/17.0.3/getm/bin
+#SBATCH --account=def-nereusvc
+#SBATCH --job-name=salish_2km
+#SBATCH --time=0-02:00
+
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+##SBATCH --mem=0
+
+# This gives 64 jobs
+##SBATCH --nodes=2
+##SBATCH --ntasks-per-node=32
+##SBATCH --mem-per-cpu=
+
+export exedir=$HOME/local/intel/17.1/getm/2.1/bin
+ln -sf subdomain/par_setup.dat.8 par_setup.dat
 
 salish_setups=$HOME/SalishSea/salishsea/setups
 initial_year=2012
-final_year=2014
+final_year=2015
 exp=A
 
 start_year=${start_year:-$1}
@@ -33,14 +40,14 @@ queue_system=1
 if [ "$HOSTNAME" == "orca" ]; then 
    basedir=/scratch/$USER/SalishSea
    export exedir=$HOME/local/intel/19.0.0/getm/2.1/bin
-   ln -sf par_setup.dat.8 par_setup.dat
+   ln -sf subdomain/par_setup.dat.8 par_setup.dat
    queue_system=0
 fi
 
 if [ "$HOSTNAME" == "salish-XPS-9100" ]; then 
    basedir=/$HOME/out/SalishSea
    export exedir=$HOME/local/gnu/5/getm/bin
-   ln -sf par_setup.dat.8 par_setup.dat
+   ln -sf subdomain/par_setup.dat.8 par_setup.dat
    queue_system=0
 fi
 
