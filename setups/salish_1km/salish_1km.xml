@@ -19,7 +19,7 @@
 			<stop>2017-01-05 00:00:00</stop>
 		</time>
 		<domain>
-			<vert_cord>1</vert_cord>
+			<vert_cord>3</vert_cord>
 			<maxdepth>428.0</maxdepth>
 			<bathymetry>topo.nc</bathymetry>
 			<vel_depth_method>0</vel_depth_method>
@@ -30,7 +30,7 @@
 			<bdyinfofile>bdyinfo.dat</bdyinfofile>
 			<crit_depth>0.5</crit_depth>
 			<min_depth>0.1</min_depth>
-			<kdum>30</kdum>
+			<kdum>35</kdum>
 			<ddu>1.0</ddu>
 			<ddl>1.0</ddl>
 			<d_gamma>40.0</d_gamma>
@@ -46,7 +46,7 @@
 			<metforcing>True</metforcing>
 			<on_grid>False</on_grid>
 			<calc_met>True</calc_met>
-			<met_method>1</met_method>
+			<met_method>2</met_method>
 			<fwf_method>0</fwf_method>
 			<spinup>0</spinup>
 			<metfmt>2</metfmt>
@@ -58,17 +58,17 @@
 			<evap_const>0.0</evap_const>
 			<precip_const>0.0</precip_const>
 			<evap_factor>1.0</evap_factor>
-			<precip_factor>1.0</precip_factor>
+			<precip_factor>0.0002777777777777778</precip_factor>
 		</meteo>
 		<rivers>
-			<river_method>0</river_method>
+			<river_method>2</river_method>
 			<river_info>riverinfo.dat</river_info>
 			<river_format>2</river_format>
 			<river_data>rivers.nc</river_data>
 			<river_ramp>-1</river_ramp>
 			<river_factor>1.0</river_factor>
 			<use_river_salt>True</use_river_salt>
-			<use_river_temp>False</use_river_temp>
+			<use_river_temp>True</use_river_temp>
 			<river_outflow_properties_follow_source_cell>True</river_outflow_properties_follow_source_cell> 
 		</rivers>
 		<m2d>
@@ -123,12 +123,12 @@
 			<temp_file>salttemp_init.nc</temp_file>
 			<temp_name>temp</temp_name>
 			<temp_field_no>1</temp_field_no>
-			<temp_adv_split>1</temp_adv_split>
+			<temp_adv_split>2</temp_adv_split>
 			<temp_adv_hor>4</temp_adv_hor>
 			<temp_adv_ver>4</temp_adv_ver>
 			<temp_AH>-1.0</temp_AH>
 			<attenuation_method>0</attenuation_method>
-			<jerlov>3</jerlov>
+			<jerlov>7</jerlov>
 			<A_const>0.58</A_const>
 			<g1_const>0.35</g1_const>
 			<g2_const>23.0</g2_const>
@@ -146,7 +146,7 @@
 			<salt_file>salttemp_init.nc</salt_file>
 			<salt_name>salt</salt_name>
 			<salt_field_no>1</salt_field_no>
-			<salt_adv_split>1</salt_adv_split>
+			<salt_adv_split>2</salt_adv_split>
 			<salt_adv_hor>4</salt_adv_hor>
 			<salt_adv_ver>4</salt_adv_ver>
 			<salt_AH>-1.0</salt_AH>
@@ -171,7 +171,7 @@
 			<save_metrics>False</save_metrics>
 			<save_masks>True</save_masks>
 			<save_2d>True</save_2d>
-			<save_meteo>False</save_meteo>
+			<save_meteo>True</save_meteo>
 			<save_3d>True</save_3d>
 			<save_vel>True</save_vel>
 			<destag>True</destag>
@@ -190,10 +190,10 @@
 			<save_numerical_analyses>False</save_numerical_analyses>
 
 			<first_2d>0</first_2d>
-			<step_2d>300</step_2d>
+			<step_2d>600</step_2d>
 			<sync_2d>24</sync_2d>
 			<first_3d>0</first_3d>
-			<step_3d>600</step_3d>
+			<step_3d>1200</step_3d>
 			<sync_3d>24</sync_3d>
 			<hotout>
 				<e>0</e>

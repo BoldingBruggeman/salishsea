@@ -1,0 +1,893 @@
+OUTDIR/salishsea:
+  time_step: 1
+  time_unit: day
+  time_reference: 1979-01-01 00:00:00
+  variables:
+    - source: *
+
+OUTDIR/salishsea_meteo:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  variables:
+    - source: meteo/out/*
+
+OUTDIR/salishsea_surface:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  k_start: 35
+  k_stop: 35
+  variables:
+    - source: z
+    - source: temp
+    - source: salt
+
+OUTDIR/salishsea_bottom:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  k_start: 1
+  k_stop: 1
+  variables:
+    - source: temp
+    - source: salt
+
+OUTDIR/station_1_sce:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 178
+  i_stop: 178
+  j_start: 170
+  j_stop: 170
+  variables:
+    - source: *
+
+OUTDIR/station_2_scw:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 176
+  i_stop: 176
+  j_start: 172
+  j_stop: 172
+  variables:
+    - source: *
+
+OUTDIR/station_3_bs1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 88
+  i_stop: 88
+  j_start: 259
+  j_stop: 259
+  variables:
+    - source: *
+
+OUTDIR/station_4_bs2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 92
+  i_stop: 92
+  j_start: 267
+  j_stop: 267
+  variables:
+    - source: *
+
+OUTDIR/station_5_bs3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 101
+  i_stop: 101
+  j_start: 268
+  j_stop: 268
+  variables:
+    - source: *
+
+OUTDIR/station_6_bs4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 106
+  i_stop: 106
+  j_start: 262
+  j_stop: 262
+  variables:
+    - source: *
+
+OUTDIR/station_7_bs5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 108
+  i_stop: 108
+  j_start: 254
+  j_stop: 254
+  variables:
+    - source: *
+
+OUTDIR/station_8_bs6:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 106
+  i_stop: 106
+  j_start: 248
+  j_stop: 248
+  variables:
+    - source: *
+
+OUTDIR/station_9_bs7:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 95
+  i_stop: 95
+  j_start: 247
+  j_stop: 247
+  variables:
+    - source: *
+
+OUTDIR/station_10_cbc10:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 173
+  i_stop: 173
+  j_start: 173
+  j_stop: 173
+  variables:
+    - source: *
+
+OUTDIR/station_11_cbc20:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 172
+  i_stop: 172
+  j_start: 173
+  j_stop: 173
+  variables:
+    - source: *
+
+OUTDIR/station_12_cbc30:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 172
+  i_stop: 172
+  j_start: 174
+  j_stop: 174
+  variables:
+    - source: *
+
+OUTDIR/station_13_cbe1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 174
+  i_stop: 174
+  j_start: 172
+  j_stop: 172
+  variables:
+    - source: *
+
+OUTDIR/station_14_cbe2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 174
+  i_stop: 174
+  j_start: 173
+  j_stop: 173
+  variables:
+    - source: *
+
+OUTDIR/station_15_cbe3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 173
+  i_stop: 173
+  j_start: 173
+  j_stop: 173
+  variables:
+    - source: *
+
+OUTDIR/station_16_cbw1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 171
+  i_stop: 171
+  j_start: 173
+  j_stop: 173
+  variables:
+    - source: *
+
+OUTDIR/station_17_cbw2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 171
+  i_stop: 171
+  j_start: 174
+  j_stop: 174
+  variables:
+    - source: *
+
+OUTDIR/station_18_cbw3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 171
+  i_stop: 171
+  j_start: 175
+  j_stop: 175
+  variables:
+    - source: *
+
+OUTDIR/station_19_cr1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 61
+  i_stop: 61
+  j_start: 307
+  j_stop: 307
+  variables:
+    - source: *
+
+OUTDIR/station_20_cr2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 60
+  i_stop: 60
+  j_start: 307
+  j_stop: 307
+  variables:
+    - source: *
+
+OUTDIR/station_21_cr3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 61
+  i_stop: 61
+  j_start: 308
+  j_stop: 308
+  variables:
+    - source: *
+
+OUTDIR/station_22_cr4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 64
+  i_stop: 64
+  j_start: 303
+  j_stop: 303
+  variables:
+    - source: *
+
+OUTDIR/station_23_cr5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 80
+  i_stop: 80
+  j_start: 297
+  j_stop: 297
+  variables:
+    - source: *
+
+OUTDIR/station_24_cr6:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 74
+  i_stop: 74
+  j_start: 297
+  j_stop: 297
+  variables:
+    - source: *
+
+OUTDIR/station_25_cr7:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 72
+  i_stop: 72
+  j_start: 297
+  j_stop: 297
+  variables:
+    - source: *
+
+OUTDIR/station_26_cr8:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 70
+  i_stop: 70
+  j_start: 295
+  j_stop: 295
+  variables:
+    - source: *
+
+OUTDIR/station_27_cr9:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 67
+  i_stop: 67
+  j_start: 296
+  j_stop: 296
+  variables:
+    - source: *
+
+OUTDIR/station_28_is1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 144
+  i_stop: 144
+  j_start: 255
+  j_stop: 255
+  variables:
+    - source: *
+
+OUTDIR/station_29_is2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 140
+  i_stop: 140
+  j_start: 263
+  j_stop: 263
+  variables:
+    - source: *
+
+OUTDIR/station_30_is3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 127
+  i_stop: 127
+  j_start: 264
+  j_stop: 264
+  variables:
+    - source: *
+
+OUTDIR/station_31_is4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 135
+  i_stop: 135
+  j_start: 257
+  j_stop: 257
+  variables:
+    - source: *
+
+OUTDIR/station_32_is5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 138
+  i_stop: 138
+  j_start: 254
+  j_stop: 254
+  variables:
+    - source: *
+
+OUTDIR/station_33_ld1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 91
+  i_stop: 91
+  j_start: 298
+  j_stop: 298
+  variables:
+    - source: *
+
+OUTDIR/station_34_ld2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 89
+  i_stop: 89
+  j_start: 295
+  j_stop: 295
+  variables:
+    - source: *
+
+OUTDIR/station_35_ld3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 87
+  i_stop: 87
+  j_start: 301
+  j_stop: 301
+  variables:
+    - source: *
+
+OUTDIR/station_36_ld4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 88
+  i_stop: 88
+  j_start: 307
+  j_stop: 307
+  variables:
+    - source: *
+
+OUTDIR/station_37_ld5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 87
+  i_stop: 87
+  j_start: 312
+  j_stop: 312
+  variables:
+    - source: *
+
+OUTDIR/station_38_ld6:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 93
+  i_stop: 93
+  j_start: 311
+  j_stop: 311
+  variables:
+    - source: *
+
+OUTDIR/station_39_ld7:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 97
+  i_stop: 97
+  j_start: 309
+  j_stop: 309
+  variables:
+    - source: *
+
+OUTDIR/station_40_ld8:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 93
+  i_stop: 93
+  j_start: 307
+  j_stop: 307
+  variables:
+    - source: *
+
+OUTDIR/station_41_ls1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 159
+  i_stop: 159
+  j_start: 198
+  j_stop: 198
+  variables:
+    - source: *
+
+OUTDIR/station_42_ls2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 162
+  i_stop: 162
+  j_start: 196
+  j_stop: 196
+  variables:
+    - source: *
+
+OUTDIR/station_43_ls3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 163
+  i_stop: 163
+  j_start: 201
+  j_stop: 201
+  variables:
+    - source: *
+
+OUTDIR/station_44_ls4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 166
+  i_stop: 166
+  j_start: 194
+  j_stop: 194
+  variables:
+    - source: *
+
+OUTDIR/station_45_ls5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 172
+  i_stop: 172
+  j_start: 187
+  j_stop: 187
+  variables:
+    - source: *
+
+OUTDIR/station_46_moor1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 181
+  i_stop: 181
+  j_start: 170
+  j_stop: 170
+  variables:
+    - source: *
+
+OUTDIR/station_47_nq1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 122
+  i_stop: 122
+  j_start: 238
+  j_stop: 238
+  variables:
+    - source: *
+
+OUTDIR/station_48_nq2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 118
+  i_stop: 118
+  j_start: 247
+  j_stop: 247
+  variables:
+    - source: *
+
+OUTDIR/station_49_nq3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 122
+  i_stop: 122
+  j_start: 255
+  j_stop: 255
+  variables:
+    - source: *
+
+OUTDIR/station_50_nq4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 139
+  i_stop: 139
+  j_start: 245
+  j_stop: 245
+  variables:
+    - source: *
+
+OUTDIR/station_51_nq5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 146
+  i_stop: 146
+  j_start: 241
+  j_stop: 241
+  variables:
+    - source: *
+
+OUTDIR/station_52_nq6:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 144
+  i_stop: 144
+  j_start: 236
+  j_stop: 236
+  variables:
+    - source: *
+
+OUTDIR/station_53_nq7:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 134
+  i_stop: 134
+  j_start: 232
+  j_stop: 232
+  variables:
+    - source: *
+
+OUTDIR/station_54_pr1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 107
+  i_stop: 107
+  j_start: 286
+  j_stop: 286
+  variables:
+    - source: *
+
+OUTDIR/station_55_pr10:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 103
+  i_stop: 103
+  j_start: 289
+  j_stop: 289
+  variables:
+    - source: *
+
+OUTDIR/station_56_pr2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 97
+  i_stop: 97
+  j_start: 279
+  j_stop: 279
+  variables:
+    - source: *
+
+OUTDIR/station_57_pr3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 94
+  i_stop: 94
+  j_start: 276
+  j_stop: 276
+  variables:
+    - source: *
+
+OUTDIR/station_58_pr4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 89
+  i_stop: 89
+  j_start: 272
+  j_stop: 272
+  variables:
+    - source: *
+
+OUTDIR/station_59_pr5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 82
+  i_stop: 82
+  j_start: 279
+  j_stop: 279
+  variables:
+    - source: *
+
+OUTDIR/station_60_pr6:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 77
+  i_stop: 77
+  j_start: 285
+  j_stop: 285
+  variables:
+    - source: *
+
+OUTDIR/station_61_pr7:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 79
+  i_stop: 79
+  j_start: 289
+  j_stop: 289
+  variables:
+    - source: *
+
+OUTDIR/station_62_pr8:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 84
+  i_stop: 84
+  j_start: 291
+  j_stop: 291
+  variables:
+    - source: *
+
+OUTDIR/station_63_pr9:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 97
+  i_stop: 97
+  j_start: 288
+  j_stop: 288
+  variables:
+    - source: *
+
+OUTDIR/station_64_sn001:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 174
+  i_stop: 174
+  j_start: 176
+  j_stop: 176
+  variables:
+    - source: *
+
+OUTDIR/station_65_sn1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 190
+  i_stop: 190
+  j_start: 210
+  j_stop: 210
+  variables:
+    - source: *
+
+OUTDIR/station_66_sn2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 195
+  i_stop: 195
+  j_start: 229
+  j_stop: 229
+  variables:
+    - source: *
+
+OUTDIR/station_67_sn3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 183
+  i_stop: 183
+  j_start: 220
+  j_stop: 220
+  variables:
+    - source: *
+
+OUTDIR/station_68_sn4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 176
+  i_stop: 176
+  j_start: 215
+  j_stop: 215
+  variables:
+    - source: *
+
+OUTDIR/station_69_sn5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 179
+  i_stop: 179
+  j_start: 208
+  j_stop: 208
+  variables:
+    - source: *
+
+OUTDIR/station_70_sn6:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 183
+  i_stop: 183
+  j_start: 202
+  j_stop: 202
+  variables:
+    - source: *
+
+OUTDIR/station_71_sn7:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 187
+  i_stop: 187
+  j_start: 204
+  j_stop: 204
+  variables:
+    - source: *
+
+OUTDIR/station_72_vc1:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 200
+  i_stop: 200
+  j_start: 145
+  j_stop: 145
+  variables:
+    - source: *
+
+OUTDIR/station_73_vc2:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 192
+  i_stop: 192
+  j_start: 137 
+  j_stop: 137
+  variables:
+    - source: *
+
+OUTDIR/station_74_vc3:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 192
+  i_stop: 192
+  j_start: 132
+  j_stop: 132
+  variables:
+    - source: *
+
+OUTDIR/station_75_vc4:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 196
+  i_stop: 196
+  j_start: 131
+  j_stop: 131
+  variables:
+    - source: *
+
+OUTDIR/station_76_vc5:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 193
+  i_stop: 193
+  j_start: 127
+  j_stop: 127
+  variables:
+    - source: *
+
+OUTDIR/station_77_vc6:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 184
+  i_stop: 184
+  j_start: 126
+  j_stop: 126
+  variables:
+    - source: *
+
+OUTDIR/station_78_vc7:
+  time_step: 1
+  time_unit: hour
+  time_reference: 1979-01-01 00:00:00
+  i_start: 183
+  i_stop: 183
+  j_start: 135
+  j_stop: 135
+  variables:
+    - source: *
+
