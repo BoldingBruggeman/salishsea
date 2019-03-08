@@ -27,20 +27,39 @@
 
 ! 97    103                  Fraser
 ! 102    103                  Fraser
-2
- 115 108 r1 # Fraser River
+35
+ 116 108 r1 # Fraser River
  102 131 r2 # Squamish River
-# 76 136 r3 # Clowhom river
-# 45 156 r4 # Homathko river
-# 29 155 r5 # Salmon River
-# 33 148 r6 # Campbell river
-# 38 140 r7 # Oyster River
-# 43 130 r8 # Courtenay River
-# 60 115 r9 # Little Qualicum River
-# 66 113 r10 # Englishman river
-# 76 107 r11 # Millstone River
-# 79 104 r12 # Nanaimo River
-# 85 92 r13 # Chemainus River
-# 87 85 r14 # Cowichan River
-# 60 75 r15 # San Juan River
-
+ 76 136 r3 # Clowhom river
+ 45 156 r4 # Homathko river
+ 29 155 r5 # Salmon River
+ 33 148 r6 # Campbell river
+ 38 140 r7 # Oyster River
+ 43 130 r8 # Courtenay River
+ 60 115 r9 # Little Qualicum River
+ 66 113 r10 # Englishman river
+ 76 107 r11 # Millstone River
+ 79 104 r12 # Nanaimo River
+ 85 92 r13 # Chemainus River
+ 87 85 r14 # Cowichan River
+ 60 75 r15 # San Juan River
+ 102 113 r16 # Capilano River
+ 101 131 r17 # Stawamus River
+ 51 152 r18 # Theodosia River
+ 58 64 r19 # Hoko River
+ 90 55 r20 # Elwha River
+ 103 55 r21 # Dungeness River
+ 112 33 r22 # Quilcene River
+ 110 29 r23 # Duckbush River
+ 103 15 r24 # Skokomish River
+ 113 6 r25 # Deschutes River
+ 121 6 r26 # Nisqually River
+ 127 11 r27 # Puyallup River
+ 128 27 r28 # Green River
+ 129 27 r29 # Duwamish River
+ 129 28 r30 # Cedar River
+ 133 46 r31 # Snohomish River
+ 128 54 r32 # Stillaguamish River
+ 125 64 r33 # Skagit River
+ 126 76 r34 # Samish River
+ 119 86 r35 # Nooksack River 
