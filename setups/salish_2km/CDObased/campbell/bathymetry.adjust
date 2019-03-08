@@ -1,4 +1,4 @@
-215
+216
 34 146 34 146 80. # Around Campbell River
 33 148 33 148 90. # Around Campbell River
 33 151 33 151 90. # Around Campbell River
@@ -6,13 +6,13 @@
 30 152 30 152 86. # Around Campbell River
 29 153 29 154 146. # Around Campbell River
 35 155 35 155 53.  # New adjusted
-39 155 39 155 300.  # New adjusted
-49 156 49 156 353.  # New adjusted
+39 155 39 155 300. # New adjusted
+49 156 49 156 353. # New adjusted
 48 149 48 149 23.  # New adjusted
-76 142 76 142 400.  # New adjusted
-75 143 75 143 330.  # New adjusted
-75 148 75 148 400.  # New adjusted
-76 148 76 148 390.  # New adjusted
+76 142 76 142 400. # New adjusted
+75 143 75 143 330. # New adjusted
+75 148 75 148 400. # New adjusted
+76 148 76 148 390. # New adjusted
 79 148 79 148 320. # New Adjusted 
 79 154 79 154 220. # New Adjusted
 77 155 77 155 280. # New Adjusted
@@ -21,8 +21,8 @@
 117 47 117 47 16.  # New adjusted
 107 15 108 15 19.  # New adjusted
 118 15 118 15 33.  # New adjusted
-87 84 87 85 40.  # New adjusted
-93 84 93 85 45.  # New adjusted
+87 84 87 85 40.   # New adjusted
+93 84 93 85 45.   # New adjusted
 52 76 52 76 40.   # Around WTC inlandtrail
 55 75 55 75 26.   # Around Sandstone Creeck
 64 72 64 72 20.   # Around Sombrio Beach
@@ -48,14 +48,14 @@
 93 90 93 90 35.   # Around Long Harbour 
 98 90 98 90 30.   # Around Mayne Island 
 87 97 87 97 40.   # Around North Galiano 
-79 104 79 104 42.   # Around Gabriola
-79 105 79 105 38.   # Around Gabriola
-86 101 86 101 -10.  # Around Valdes Island
-85 101 85 101 18.   # Around Valdes Island
-75 109 75 109 80.   # Around Hammond Bay
-74 109 74 109 70.   # Around Hammond Bay
-56 116 56 116 30.   # Around Bowser
-52 119 52 119 39.   # Around Bowser
+79 104 79 104 42.  # Around Gabriola
+79 105 79 105 38.  # Around Gabriola
+86 101 86 101 -10. # Around Valdes Island
+85 101 85 101 18.  # Around Valdes Island
+75 109 75 109 80.  # Around Hammond Bay
+74 109 74 109 70.  # Around Hammond Bay
+56 116 56 116 30.  # Around Bowser
+52 119 52 119 39.  # Around Bowser
 51 121 51 121 40.  # Around Bowser
 51 123 51 123 38.  # Around Hornby Island 
 48 121 48 121 43.  # Around Fanny Bay
@@ -91,9 +91,9 @@
 102 77 102 77 -10.  # Around Henry Island
 101 77 101 77 20.   # Around Henry Island
 103 85 103 85 90.   # Around Love Triangle 
-103 78 103 78 30.  # Around Roche Harbour 
+103 78 103 78 30.   # Around Roche Harbour 
 104 78 104 78 100.  # Around Roche Harbour
-101 86 101 86 20.  # Around Saturna 
+101 86 101 86 20.   # Around Saturna 
 107 81 107 81 100.  # Around Waldron 
 107 75 107 75 69.  # Around Whale watching boat
 107 72 107 72 60.  # Around Dinner Island
@@ -107,15 +107,16 @@
 114 68 114 68 45.  # Around Castle Island
 107 96 107 96 9.   # Around Point Roberts
 106 99 106 99 4.   # Around Boundary Bay
-107 100 107 100 4.   # Around Boundary Bay
+107 100 107 100 4.  # Around Boundary Bay
 111 101 111 101 4.  # Around Boundary Bay
 114 98 114 98 5.    # Around White Rock City
 116 95 116 96 4.    # Around Semiahmoo Bay
 116 93 116 93 6.    # Around Birch Bay
 115 92 115 92 8.    # Around Birch Bay
-115 91 115 91 15.    # Around Birch Bay
+115 91 115 91 15.   # Around Birch Bay
+98 110 98 110 43.   # Around Vancouver
 102 106 102 106 5.  # Fraser River 
-101 108 101 108 5.  # Fraser River 
+99 108 103 108 7.  # Fraser River 
 104 107 104 107 5.  # Fraser River 
 105 107 105 107 5.  # Fraser River
 106 107 106 107 5.  # Fraser River
@@ -134,78 +135,78 @@
 106 103 106 103 8. # Fraser River continuity 
 104 102 105 102 6. # Fraser River continuity
 102 102 102 102 4. # Fraser River continuity
-109 70 109 70 45. # Around Goose Island 
-110 77 110 77 15. # Around Orcas
-110 76 110 76 20. # Around Orcas  
-118 84 118 84 7.  # Around Lummi Island
-118 83 118 83 9.  # Around Lummi Island
-121 73 121 73 15. # Around Anacortes
-121 67 121 67 7. # Around Anacortes
-119 67 119 67 7. # Around Anacortes
-116 58 116 58 9. # Around Coupeville
-118 58 118 59 9. # Around Coupeville
-128 60 128 60 4. # Around Stanwood 
+109 70 109 70 45.  # Around Goose Island 
+110 77 110 77 15.  # Around Orcas
+110 76 110 76 20.  # Around Orcas  
+118 84 118 84 7.   # Around Lummi Island
+118 83 118 83 9.   # Around Lummi Island
+121 73 121 73 15.  # Around Anacortes
+121 67 121 67 7.   # Around Anacortes
+119 67 119 67 7.   # Around Anacortes
+116 58 116 58 9.   # Around Coupeville
+118 58 118 59 9.   # Around Coupeville
+128 60 128 60 4.   # Around Stanwood 
 129 53 129 53 115. # Around Weallup Lake
 125 53 125 53 110. # Around Camano Island 
-121 40 121 40 95. # Around Port Gamble 
-117 35 117 35 40. # Around Bangor  
+121 40 121 40 95.  # Around Port Gamble 
+117 35 117 35 40.  # Around Bangor  
 116 33 116 33 100. # Around Bangor
-116 32 116 32 80. # Around Olympic View 
-116 31 116 31 70. # Around Bangor
+116 32 116 32 80.  # Around Olympic View 
+116 31 116 31 70.  # Around Bangor
 110 29 110 29 150. # Around Duckabush Washington 
 108 27 108 27 135. # Around Hood Canal 
 108 25 108 25 105. # Around Holly 
-107 25 107 25 85. # Around Holly 
-107 23 107 23 85. # Around Find The Bridge  
-106 23 106 23 90. # Around Find The Bridge 
+107 25 107 25 85.  # Around Holly 
+107 23 107 23 85.  # Around Find The Bridge  
+106 23 106 23 90.  # Around Find The Bridge 
 106 21 106 21 100. # Around Egle Creek  
 105 21 105 21 105. # Around Egle Creek  
 104 20 104 20 105. # Around Lilliwaup 
-103 17 103 17 70. # Around Hood Sport 
-104 17 104 17 80. # Around Hood Sport 
-105 15 105 15 24. # Around Union 
-106 15 106 15 14. # Around Union 
-107 15 107 15 9. # Around Union
-129 44 129 44 90. # Around Maxwelton 
-126 44 126 44 30. # Around Maxwelton
-126 45 126 45 25. # Around Maxwelton
-125 46 125 46 30. # Around Maxwelton
-124 46 124 46 30. # Around Maxwelton
+103 17 103 17 70.  # Around Hood Sport 
+104 17 104 17 80.  # Around Hood Sport 
+105 15 105 15 24.  # Around Union 
+106 15 106 15 14.  # Around Union 
+107 15 107 15 9.   # Around Union
+129 44 129 44 90.  # Around Maxwelton 
+126 44 126 44 30.  # Around Maxwelton
+126 45 126 45 25.  # Around Maxwelton
+125 46 125 46 30.  # Around Maxwelton
+124 46 124 46 30.  # Around Maxwelton
 130 42 130 42 150. # Around Lake Stickney 
 130 41 130 41 100. # Around Lake Stickney
-130 40 130 40 90. # Around Lake Stickney
+130 40 130 40 90.  # Around Lake Stickney
 129 39 129 39 150. # Around July Pink 
-125 36 125 36 60. # Around Sunset Kingston 
-122 33 122 33 6. # Around Treasure Island 
-121 32 121 32 5. # Around Treasure Island
+125 36 125 36 60.  # Around Sunset Kingston 
+122 33 122 33 6.   # Around Treasure Island 
+121 32 121 32 5.   # Around Treasure Island
 127 29 127 29 150. # Around Sunset Magnolia 
-129 28 129 28 40. # Around Seattle 
+129 28 129 28 40.  # Around Seattle 
 127 26 127 26 150. # Around Harbor Island 
-123 25 123 25 40. # Around Moon Over 
-123 24 123 24 45. # Around Seattle Rainbow 
-123 23 123 23 25. # Around Seattle Rainbow
-124 23 124 23 35. # Around Seattle Rainbow
-124 22 124 22 25. # Around Deplation Pass Bridge 
-126 22 126 22 75. # Around Dolphine Point 
+123 25 123 25 40.  # Around Moon Over 
+123 24 123 24 45.  # Around Seattle Rainbow 
+123 23 123 23 25.  # Around Seattle Rainbow
+124 23 124 23 35.  # Around Seattle Rainbow
+124 22 124 22 25.  # Around Deplation Pass Bridge 
+126 22 126 22 75.  # Around Dolphine Point 
 126 21 126 21 125. # Around Dolphine Point
 129 21 129 21 105. # Around Burian 
 129 19 129 19 165. # Around Burian
-130 17 130 17 180.  # Aroun  Des Moines 
-130 16 130 16 170.  # Aroun Des Moines 
-130 15 130 15 150.  # Around Des Moines 
-126 17 126 17 6.    # Around Vashon Island 
+130 17 130 17 180. # Aroun  Des Moines 
+130 16 130 16 170. # Aroun Des Moines 
+130 15 130 15 150. # Around Des Moines 
+126 17 126 17 6.   # Around Vashon Island 
 125 16 125 16 6.   # Around Vashon Island
 127 13 127 13 40.  # Aroun Dash Point 
 123 13 123 13 45.  # Aroun Gig Harbor 
 122 13 122 13 65.  # Around Gig Harbor
 123 10 123 10 35.  # Around University Place 
 122 10 122 10 25.  # Around University Place 
-122 8 122 8 45.  # Around University Place 
-121 8 121 8 35.  # Around University Place
-118 3 118 3 25.  # Around Barlow Island 
-118 2 118 2 15.  # Around Barlow Island 
-113 7 113 7 35.  # Around Jelly Fish  
-114 8 114 8 60.  # Around Joemma Beach 
+122 8 122 8 45.    # Around University Place 
+121 8 121 8 35.    # Around University Place
+118 3 118 3 25.    # Around Barlow Island 
+118 2 118 2 15.    # Around Barlow Island 
+113 7 113 7 35.    # Around Jelly Fish  
+114 8 114 8 60.    # Around Joemma Beach 
 113 10 113 10 50.  # Around Herron Island 
 115 6 115 6 55.    # Around Yoman
 124 23 124 23 89.  # Around Blake Island 
@@ -214,4 +215,3 @@
 124 19 124 19 93.  # Around West Seattle
 124 18 124 18 95.  # Around Al's 
 123 18 123 18 97.  # Around Al's
- 
