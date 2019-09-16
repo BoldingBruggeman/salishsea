@@ -1,4 +1,16 @@
-216
+229
+101 77 101 77 242. # Bottom Chanel
+100 81 100 81 300. # Bottom Chanel
+107 87 107 87 175. # Bottom Chanel
+103 70 103 70 242. # Bottom Chanel
+91 59 102 60 160. # Bottom Chanel
+109 65 117 66 152. # Bottom Chanel
+115 66 116 78 152. # Bottom Chanel
+116 78 117 79 155. # Bottom Chanel
+117 80 118 82 160. # Bottom Chanel
+115 81 116 84 165. # Bottom Chanel
+110 83 115 85 170. # Bottom Chanel
+110 86 112 88 180. # Bottom Chanel
 34 146 34 146 80. # Around Campbell River
 33 148 33 148 90. # Around Campbell River
 33 151 33 151 90. # Around Campbell River
@@ -116,7 +128,8 @@
 115 91 115 91 15.   # Around Birch Bay
 98 110 98 110 43.   # Around Vancouver
 102 106 102 106 5.  # Fraser River 
-99 108 103 108 7.  # Fraser River 
+100 108 103 108 7.  # Fraser River 
+99 105 99 109 7.  # Fraser River
 104 107 104 107 5.  # Fraser River 
 105 107 105 107 5.  # Fraser River
 106 107 106 107 5.  # Fraser River
