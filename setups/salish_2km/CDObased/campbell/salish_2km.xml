@@ -19,7 +19,7 @@
 			<stop>2017-01-05 00:00:00</stop>
 		</time>
 		<domain>
-			<vert_cord>1</vert_cord>
+			<vert_cord>3</vert_cord>
 			<maxdepth>428.0</maxdepth>
 			<bathymetry>topo.nc</bathymetry>
 			<vel_depth_method>0</vel_depth_method>
@@ -32,7 +32,7 @@
 			<min_depth>0.1</min_depth>
 			<kdum>41</kdum>
 			<ddu>1.0</ddu>
-			<ddl>1.0</ddl>
+			<ddl>0.0</ddl>
 			<d_gamma>40.0</d_gamma>
 			<gamma_surf>True</gamma_surf>
 			<il>1</il>
@@ -46,8 +46,8 @@
 			<metforcing>True</metforcing>
 			<on_grid>False</on_grid>
 			<calc_met>True</calc_met>
-			<met_method>3</met_method>
-			<fwf_method>0</fwf_method>
+			<met_method>2</met_method>
+			<fwf_method>3</fwf_method>
 			<spinup>0</spinup>
 			<metfmt>2</metfmt>
 			<meteo_file>meteo_files.dat</meteo_file>
@@ -110,7 +110,7 @@
 			<avmback>0.0</avmback>
 			<avhback>0.0</avhback>
 			<advect_turbulence>False</advect_turbulence>
-			<ip_method>1</ip_method>
+			<ip_method>6</ip_method>
 			<ip_ramp>-1</ip_ramp>
 			<vel_check>0</vel_check>
 			<min_vel>-4.0</min_vel>
@@ -128,7 +128,7 @@
 			<temp_adv_ver>4</temp_adv_ver>
 			<temp_AH>-1.0</temp_AH>
 			<attenuation_method>0</attenuation_method>
-			<jerlov>3</jerlov>
+			<jerlov>6</jerlov>
 			<A_const>0.58</A_const>
 			<g1_const>0.35</g1_const>
 			<g2_const>23.0</g2_const>
